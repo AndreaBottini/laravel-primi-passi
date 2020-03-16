@@ -21,7 +21,5 @@
 //     // return 'ciao';
 // });
 
-Route::get('/', function () {
-    return view('cds');
-    // return 'ciao';
-});
+Route::get('/', 'ControllerCd@index'); 
+    
